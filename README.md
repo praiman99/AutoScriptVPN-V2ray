@@ -37,7 +37,7 @@
 
 <h3 align="center">Additional Info</h3>
 <p align="center">
-Recommended OS: Debian 9 & 10 x64 bit
+Recommended OS: Debian & Ubuntu x64 bit
 
 Credit To : https://t.me/horasss (Orignal Base Script)
 
