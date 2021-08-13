@@ -32,7 +32,7 @@
 <h3 align="center">Installation</h3>
 
 <p align="center">
-<pre align="center">wget https://raw.githubusercontent.com/praiman99/AutoScriptVPN/master/setup && chmod +x setup && ./setup
+<pre align="center">wget https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/setup && chmod +x setup && ./setup
 </pre></p>
 
 <h3 align="center">Additional Info</h3>
