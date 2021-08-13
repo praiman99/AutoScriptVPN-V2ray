@@ -23,9 +23,9 @@
     
  <h3 align="center">Screenshorts</h3>
  
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/main/Screenshort/" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/main/Screenshort/" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/main/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
   
   </h3>
   
