@@ -37,8 +37,13 @@
 </pre></p>
 
 <h3 align="center">Additional Info</h3>
-<p align="center">
-Recommended OS: Debian & Ubuntu x64 bit
+Recommended OS :
+
+ - Debian 9 & 10 x64 bit
+
+- Ubuntu 18.04 & 20.04 x64 bit
+
+- Centos 7 & 8 x64 bit
 
 Credit To : https://t.me/horasss (Orignal Base Script)
 
@@ -54,6 +59,6 @@ Report Bugs Contact : https://t.me/PR_Aiman
 <h3 align="center">Thanks to ALLAH S.W.T alhamdulillah syukur kehadrat illahi atas kepandaian dan kebijaksanaan yang telah di berikan daripada maha pencipta. semoga segala urusan di masa akan datang dipermudahkan</h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoScript3in1%202021.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoScriptVPN-V2ray%202021.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
