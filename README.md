@@ -1,6 +1,6 @@
-<h1 align="center"> VPS AutoScript3in1 <img src="https://img.shields.io/badge/Version-1.0-blue.svg"></h1>
+<h1 align="center"> VPS AutoScriptVPN-V2ray <img src="https://img.shields.io/badge/Version-1.0-blue.svg"></h1>
 
-<p align="center">VPS AutoScript3in1 is made by PR Aiman for Virtual Private Network</p>
+<p align="center">VPS AutoScriptVPN-V2ray is made by PR Aiman for Virtual Private Network</p>
 <p align="center">
 <a href="https://t.me/PR_Aiman"><img title="Made in Indonesia Malaysia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA & MALAYSIA-SCRIPT?colorA=%23ff0000&colorB=%23ffffff&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
@@ -8,6 +8,7 @@
 <p align="center">
   <a><img src="https://img.shields.io/badge/Support-Debian-red.svg"></a>
   <a><img src="https://img.shields.io/badge/Support-Ubuntu-orange.svg"></a>
+  <a><img src="https://img.shields.io/badge/Support-Centos-purple.svg"></a>
   
 </p>
 <h3 align="center">Services</h3>
@@ -23,16 +24,16 @@
     
  <h3 align="center">Screenshorts</h3>
  
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
- <img src="https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-V2ray/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-V2ray/beginner/Screenshort/" width="100%">
+ <img src="https://raw.githubusercontent.com/praiman99/AutoScriptVPN-V2ray/beginner/Screenshort/" width="100%">
   
   </h3>
   
 <h3 align="center">Installation</h3>
 
 <p align="center">
-<pre align="center">wget https://raw.githubusercontent.com/praiman99/AutoScript3in1/beginner/setup && chmod +x setup && ./setup
+<pre align="center">wget https://raw.githubusercontent.com/praiman99/AutoScriptVPN-V2ray/beginner/setup.sh && chmod +x setup.sh && ./setup
 </pre></p>
 
 <h3 align="center">Additional Info</h3>
