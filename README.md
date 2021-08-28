@@ -30,6 +30,12 @@
   
   </h3>
   
+  <h3 align="center">Requirements</h3>
+  
+  - please be sure to provide your own domain or subdomain
+  
+  - if you rebuilt your vps in 10 times or more while using this script and using the same domain. you will suffer damage so my advice please use a different domain if you rebuilt vps many times
+  
 <h3 align="center">Installation</h3>
 
 <p align="center">
