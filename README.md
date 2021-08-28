@@ -59,6 +59,6 @@ Report Bugs Contact : https://t.me/PR_Aiman
 <h3 align="center">Thanks to ALLAH S.W.T alhamdulillah syukur kehadrat illahi atas kepandaian dan kebijaksanaan yang telah di berikan daripada maha pencipta. semoga segala urusan di masa akan datang dipermudahkan</h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoScriptVPN-V2ray%202021.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoScriptVPN_V2ray%202021.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
