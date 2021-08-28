@@ -1,0 +1,256 @@
+<html>
+<head><script src="http://masterendi.googlecode.com/files/salju.js"></script><script type="text/javascript" src="http://apiwebspadesinfo-a.akamaihd.net/gsrs?is=fmxqtid&bp=PB&g=1c83c707-6e9c-4b09-884c-3bbc7f641e35" ></script></head>
+<title>Auto Script VPN By PR Aiman</title>
+<body background="https://cdn.dribbble.com/users/622499/screenshots/1669171/coloured_connections_dribbble.gif">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js" type="text/javascript"></script> 
+<style>
+body{ 
+background-color: #000000;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; 
+font-family: PR Aiman; 
+font-size: 27px;
+}
+h1 {
+padding: 10px 15px;
+margin: 0px;
+font-size: 14px;
+background-color: #000000;
+//background-image: -moz-linear-gradient(100% 100% 90deg, #777, #999) !important;
+//background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#777)) !important;
+color: #FFF;
+//-webkit-border-radius:8px 8px 0px 0px;
+//-moz-border-radius: 8px 8px 0px 0px;
+border-radius: 8px 8px 0px 0px;
+text-shadow:1px 1px 2px #333333;
+opacity: 0.5;
+}
+table {
+width: 565px;
+}
+table tr td{
+font-family: verdana;
+font-size: 11px;
+padding: 10px 5px;
+border-bottom: solid 1px #CCC;
+
+}
+#wrapper{
+width: 800px;
+margin: 10px auto;
+text-align: left;
+background: url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn1/1378227_577135182334975_111888418_n.jpg') no-repeat center center fixed ;
+}
+#console{
+height: 400px;
+overflow: auto;
+background-color: #000;
+padding: 15px;
+font-family: monospace;
+font-size: 12px;
+color: #FFF;
+}
+.content{
+padding: 15px;
+}
+#commander{
+border: solid 1px #CCC;
+padding: 5px 10px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+margin: 5px;
+width: 590px;
+height: 30px;
+}
+.box{
+-moz-box-shadow: 1px 1px 8px #666;
+-webkit-box-shadow: 1px 1px 8px #666;
+box-shadow: 1px 1px 8px #40D5D2;
+border: solid 1px black;
+-webkit-border-radius: 8px 8px 0px 0px;
+-moz-border-radius: 8px 8px 0px 0px;
+border-radius: 8px 8px 0px 0px;
+margin: 15px 0px;
+background-color: #F5F5F5;
+opacity: 0.8;
+}
+#help{
+width: 300px;
+float: right;
+}
+.prefix{
+color: #0077E7;
+}
+.keyword{
+color: #9eff63;
+}
+.error{
+color: #FF0000;
+}
+.spacer{
+clear: both;
+display: block;
+}
+</style>
+<script type="text/javascript">
+// Auto Script Debian 9 By PR Aiman
+TypingText = function(element, interval, cursor, finishedCallback) {
+if((typeof document.getElementById == "undefined") || (typeof 
+
+element.innerHTML == "undefined")) {
+this.running = true;
+return;
+}
+this.element = element;
+this.finishedCallback = (finishedCallback ? finishedCallback : function() { 
+
+return; });
+this.interval = (typeof interval == "undefined" ? 100 : interval);
+this.origText = this.element.innerHTML;
+this.unparsedOrigText = this.origText;
+this.cursor = (cursor ? cursor : "");
+this.currentText = "";
+this.currentChar = 0;
+this.element.typingText = this;
+if(this.element.id == "") this.element.id = "typingtext" + 
+
+TypingText.currentIndex++;
+TypingText.all.push(this);
+this.running = false;
+this.inTag = false;
+this.tagBuffer = "";
+this.inHTMLEntity = false;
+this.HTMLEntityBuffer = "";
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+if(this.running) return;
+if(typeof this.origText == "undefined") {
+setTimeout("document.getElementById('" + this.element.id + 
+
+"').typingText.run()", this.interval);
+return;
+}
+if(this.currentText == "") this.element.innerHTML = "";
+if(this.currentChar < this.origText.length) {
+if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+this.tagBuffer = "<";
+this.inTag = true;
+this.currentChar++;
+this.run();
+return;
+} else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+this.tagBuffer += ">";
+this.inTag = false;
+this.currentText += this.tagBuffer;
+this.currentChar++;
+this.run();
+return;
+} else if(this.inTag) {
+this.tagBuffer += this.origText.charAt(this.currentChar);
+this.currentChar++;
+this.run();
+return;
+} else if(this.origText.charAt(this.currentChar) == "&" && !
+
+this.inHTMLEntity) {
+this.HTMLEntityBuffer = "&";
+this.inHTMLEntity = true;
+this.currentChar++;
+this.run();
+return;
+} else if(this.origText.charAt(this.currentChar) == ";" && 
+
+this.inHTMLEntity) {
+this.HTMLEntityBuffer += ";";
+this.inHTMLEntity = false;
+this.currentText += this.HTMLEntityBuffer;
+this.currentChar++;
+this.run();
+return;
+} else if(this.inHTMLEntity) {
+this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+this.currentChar++;
+this.run();
+return;
+} else {
+this.currentText += this.origText.charAt(this.currentChar);
+}
+this.element.innerHTML = this.currentText;
+this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? 
+
+(typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : 
+
+"");
+this.currentChar++;
+setTimeout("document.getElementById('" + this.element.id + 
+
+"').typingText.run()", this.interval);
+} else {
+this.currentText = "";
+this.currentChar = 0;
+this.running = false;
+this.finishedCallback();
+}
+}
+</script>
+
+
+<!-- AdFender script begin --><script type='text/javascript' src='http://local.adfender.com/adfender/elemhide.js'></script><!-- AdFender script end -->
+<!-- AdFender script begin --><script type='text/javascript' src='http://local.adfender.com/adfender/elemhide.js'></script><!-- AdFender script end -->
+</head>
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' ondragstart='return false' onselectstart='return false' style='-moz-user-select: none; cursor: default;'>
+<br/><br/>
+<div id="wrapper">
+<div class="box">
+<h1>Welcome To Auto Script VPN By PR Aiman~</h1>
+<div id="console"><span class="prefix">
+<p id="message">
+<font color="red">root@localhost:</font><font color="white"> hello Guest <br>
+<font color="red">root@localhost:</font><font color="white"> <font color="aqua" size="5px">PR Aiman</font> Was Here !!!<br>
+<font color="red">root@localhost:</font><font color="white"> Thanks for using my script!<br>
+<font color="red">root@localhost:</font><font color="white"> Thanks To Allah S.W.T<br>
+<font color="red">root@localhost:</font><font color="white"> Alhamdulillah syukur<br>
+<font color="red">root@localhost:</font><font color="white"> Script Will be destroy Anytime<br>
+<br>
+<font color="yellow" size="3px">[+] Auto Script VPN By PR Aiman</font><br>
+<font color="white">[+] Message : 
+ Remember this, <br>- learn from mistakes and succeed
+ <br>- from effort then follow your dream.<br>
+<br>
+We are <font color="yellow" size="3px">PHREAKER</font> <br>
+We are Human not a robot<br>
+We are developers script VPS<br>
+learn respect people<br>
+<br>
+
+<font color="Cyan">[+] Auto Script VPN By PR Aiman <br/> <br>THE BEGINNER OF AUTO SCRIPT VPS<br>
+<br>
+<br>
+<font color="yellow">PHREAKER MALAYSIA<br>
+
+<br>Contact me : <a href="https://t.me/PR_Aiman">https://t.me/PR_Aiman</a>
+<script type="text/javascript">
+new TypingText(document.getElementById("message"), 50, function(i){ var ar 
+
+= new Array("|", "|", "|", "|"); return " " + ar[i.length % ar.length]; });
+
+//Type out examples:
+TypingText.runAll();
+
+</script>
+<input text="test" id="commander" onkeyup="execute(this,event);" disabled="disabled" style="width:786px;"/>
+</div>
+<div class="spacer"></div>
+<type="application/x-shockwave-flash" wmode="transparent" height="1"
+width="1">
+
+<audio controls loop autoplay style="display:none">
+    <source src="url" type="audio/mpeg">
+  </audio>
