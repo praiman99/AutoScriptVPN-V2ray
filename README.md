@@ -19,7 +19,7 @@
  </p>
 <h3 align="center">Commands</h3>
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Commands-menu_v2ray-blueviolet.svg"></a>
+  <a><img src="https://img.shields.io/badge/Commands-menu--v2ray-blueviolet.svg"></a>
   </p>
     
  <h3 align="center">Screenshorts</h3>
